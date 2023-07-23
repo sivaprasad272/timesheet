@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('checkout'){
       script{
-        sh "git url: 
+        sh "git URL: 'https://github.com/sivaprasad272/timesheet.git" 
       }
     }
     stage('print time and date'){
