@@ -4,7 +4,7 @@ pipeline{
     stage('checkout'){
       steps{
         script{
-          sh "git URL: 'https://github.com/sivaprasad272/timesheet.git" 
+          sh git URL: "https://github.com/sivaprasad272/timesheet.git" 
         }
       }
     }
