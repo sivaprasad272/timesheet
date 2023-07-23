@@ -10,7 +10,7 @@ pipeline{
       steps{
         script{
           sh "chmod +x print_time_and_date.sh"
-          sh "./print_time_and_date.sh"
+          sh "./print_time_and_date.sh &"
         }
       }
     }
